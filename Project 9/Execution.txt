@@ -1,0 +1,4 @@
+1. Open sql statements file and execute those SQL commends to make database and tables on which our login details will be stored.
+2. Open psl-config.php in includes folder and change the values of "USER" and "Password" as per your database credentials.
+3. Copy code from folder to root directory of htdocs folder.
+4. Goto localhost/index.php in browser.

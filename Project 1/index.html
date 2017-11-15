@@ -1,0 +1,47 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<style>
+body,html{height:100%; width:100%}
+body {
+	background-image:url("image1.jpeg");
+	background-position:center; 
+	background-size:cover; 
+	height:100%
+}
+
+.login-form{ background:rgba(255,255,255,.3); padding-bottom:20px; box-shadow:0 1px 3px rgba(0,0,0,.2); border-radius:4px}
+
+.form-control{ border-radius:0px; border:none;outline:none !important; color:#fff; background:#4e4a59}
+
+.input-group{margin-bottom:15px}
+
+.btn{border-radius:0px; border:none; padding:8px; outline:none !important; !important}
+
+
+</style>
+
+<title> URL Information using PHP Curl</title>
+
+</head>
+<body>
+</br>
+<h1 align='center'> URL Informeta <h1></br></br>
+<div class='container' align='center'>
+<div class= 'col-md-6 col-md-offset-6'>
+<form action="curl_url_request.php" method="post">
+</br>
+<div class='input-group'>
+<input class='form-control' placeholder='Enter URL' type="text" name="website"><br> 
+</div>
+<button class='btn btn-danger btn-block' type="submit">Get Info</button>
+</form>
+</div>
+</div>
+</body>
+</html>

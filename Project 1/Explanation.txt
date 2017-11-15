@@ -1,0 +1,8 @@
+1. index.html contains the html to enter the URL and redirects to curl_url_request.php.
+2. curl_url_request.php includes other files to show details.
+3. function_title_desc_keyword.php, first a new domdocument will be created then the source code of the url will be load into domdocument.
+	then it will scan for title tag in te document and get that title into variable and print it.
+	then it will scan for meta in the file and then in the for loop it will get the meta with description and keywords and then will print it.
+4. function_ipaddress.php, first it will open a wrapper in php then it will execite curl and store data in variable, then  it will get remote ips from the wrapper and store it into another variable and then will print the Ip address.
+5. function_httpcode.php, first it will get the html code and then will check the http code trough curl and store it in variable and then print it.
+6. function_url_load_time.php, it will calculate the loadtime using curlinfo_total_time, store it into variable and then print it.

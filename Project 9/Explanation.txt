@@ -1,0 +1,13 @@
+1. psl-config.php in includes folder contains global configuration variables. Things like whether anyone can register, whether or not it's a secure (HTTPS) connection.
+2. functions.php in includes folder will do all the processing of the login script.
+	function sec_session_start() will start the session
+	function login() will check the email and password against the database. 
+	function checkbrute() will lock the account if a user account has more than five failed logins.
+	function login_check() will check weather user is logged in or not.
+3. process_login.php in includes folder will process the login details of login page.
+4. logout.php in includes folder will stop the session of user and log out.
+5. register.php in root folder will register the new user to the account.
+6. register.inc.php in includes folder will do all the validations of new register user in register.php.
+7. register_success.php in root folder will show if the registration is succesfully done.
+8. login.php in root folder contains will enter the login details of user.
+9. index.php in root folder contains the protected script. The script will not be shown unless user has logged in.
